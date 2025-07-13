@@ -7,8 +7,8 @@
 
   color-scheme: light dark;
   /* color: rgba(255, 255, 255, 0.87); */
-  color: #ffd6a7;
-  background-color: #001e29;
+  color: #9fb9d0;
+  background-color: #121c22;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,10 +39,10 @@ button:hover {
   background-color: #03303a;
 }
 
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -59,7 +59,11 @@ button:focus-visible {
 
 .radial-gradient {
     background: radial-gradient(circle at center,
-            #11423a 0%,
-            #073024 50%,
-            #114234 100%);
+            #2f2f2f 0%,
+            #1a8b9d 50%,
+            #b2d430 100%);
+}
+
+p{
+  color: #7a90a0;
 }

@@ -59,17 +59,15 @@ const Header = () => {
   return (
     <header
       //   ref={headerRef}
-      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#001e29]/80"
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#001e29]/30"
     >
       <div className="container max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div
-            //   ref={logoRef} 
-            className="flex items-center space-x-3">
-            <div className="bg-gradient-to-r from-blue-600 to-pink-700 p-2 rounded-lg">
+          <div className="flex items-center space-x-3">
+            {/* <div className="bg-gradient-to-r from-blue-600 to-pink-700 p-2 rounded-lg">
               <Zap className="h-6 w-6 text-yellow-300" />
-            </div>
-            <span className="sm:text-2xl text-base font-bold">Megha Electrical</span>
+            </div> */}
+            <span className="sm:text-2xl text-base font-bold italic">Megha⚡Electrical</span>
           </div>
 
           <nav
