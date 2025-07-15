@@ -57,13 +57,21 @@ button:focus-visible {
   }
 }
 
-.radial-gradient {
-    background: radial-gradient(circle at center,
-            #2f2f2f 0%,
-            #1a8b9d 50%,
-            #b2d430 100%);
+.bg-plain {
+  background: radial-gradient(
+    ellipse at bottom right,
+    #f29f40,
+    #008e89,
+    #085e7d
+  );
 }
 
+/* .bg-plain{
+  background: #0e171e;
+  background-color: #0e171e;
+} */
+
+
 p{
-  color: #7a90a0;
+  color: #c8c8c8;
 }
