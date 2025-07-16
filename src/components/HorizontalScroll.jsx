@@ -4,7 +4,7 @@ import { cards } from "../constants";
 
 const Services = () => {
   return (
-    <div className="">
+    <div id="services">
       <div className="h-52 flex flex-col sm:items-center justify-center items-start px-4">
         <p className="font-medium mb-2 uppercase sm:text-start">⚡Our Services</p>
         <h2

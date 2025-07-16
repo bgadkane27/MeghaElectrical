@@ -33,7 +33,7 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0">
         <video
           className="w-full h-full object-cover"
           src="/videos/background.mp4"
@@ -43,7 +43,7 @@ const Hero = () => {
           playsInline
         />
       </div>
-      <div className="absolute inset-0 bg-gray-900/80"></div> */}
+      <div className="absolute inset-0 bg-gray-900/80"></div>
 
       <div className="absolute inset-0 overflow-hidden">
         
